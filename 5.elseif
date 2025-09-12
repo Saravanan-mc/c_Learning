@@ -1,0 +1,17 @@
+//cutoff good or average or low
+#include<stdio.h>
+int main(){
+    int cutoff;
+    
+    scanf("%d",&cutoff);
+    
+    if(cutoff >= 150){
+        printf("Cutoff: %d is good",cutoff);
+    }
+    else if(cutoff<150 && cutoff>=110){
+        printf("Cutoff: %d is average",cutoff);
+    }
+    else{
+        printf("Cutoff: %d is Low",cutoff);
+    }
+}
