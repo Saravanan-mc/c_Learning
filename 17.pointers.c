@@ -2,7 +2,7 @@
 
 int main() {
     int a = 10;
-    int **p;
+    int *p;
 
     p = &a;   // store address of a in p
 
