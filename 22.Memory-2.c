@@ -7,4 +7,5 @@ int main(){
   name = calloc(100,1);
   strcpy(name, "Hello World");
   printf("%s",name);
+  free(name);
 }
